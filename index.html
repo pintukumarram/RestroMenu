@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Restaurant</h1>
+            <p>Customize your menu below</p>
+        </header>
+
+        <section class="menu-form">
+            <h2>Add a Menu Item</h2>
+            <input type="text" id="menuItem" placeholder="Enter item name">
+            <button onclick="addItem()">Add Item</button>
+        </section>
+
+        <section class="menu-display">
+            <h2>Your Menu</h2>
+            <ul id="menuList"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
